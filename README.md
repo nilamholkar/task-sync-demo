@@ -217,6 +217,11 @@ Application:
 
 http://localhost:8081
 
+## Demo Login
+
+Username: admin@example.com
+Password: admin123
+
 ## Worker
 
 The synchronization worker can currently be triggered through:
