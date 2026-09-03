@@ -187,6 +187,24 @@ Secrets must never be committed to Git.
 
 .env is excluded through .gitignore.
 
+## Database Setup
+
+1. Create a MySQL database:
+
+   CREATE DATABASE task_management;
+
+2. Import:
+
+   database/task_management.sql
+
+3. Configure database credentials in `.env`.
+
+4. Configure GitHub credentials in `.env`.
+
+5. Start the application:
+
+   php spark serve --port 8081
+
 ## Running the Application
 
 Start Apache/MySQL through XAMPP.
