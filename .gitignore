@@ -1,0 +1,3 @@
+.env
+/writable/*
+!/writable/.gitignore
